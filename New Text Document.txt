@@ -1,0 +1,23 @@
+
+
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n, a, b, c;
+	//cout << "Input number: ";
+	//cin >> n;
+	//b = (n / 10) % 10;
+	//a = n / 100;
+	//cout << boolalpha << (b % 2 == 0);
+	//((a > 4) || (b % 2 == 0) ? (cout << "Parne") : (cout << "Neparne");
+	cout << "Input number: ";
+	cin >> a;
+	n = a%100;
+	c = a % 10;
+	((n > c) && (a % 2 == 0)) ? (cout << "True ") : (cout << "False ");
+
+
+}
