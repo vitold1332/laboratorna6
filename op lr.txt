@@ -9,9 +9,8 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
 	int a, b, x;
-	double f, c;
+	double f, c;//коментар 2
 	cout << "Hello world";
 	cout << "Введите х, a, b, c " << endl;
 	cin >> x >> a >> b >> c;
