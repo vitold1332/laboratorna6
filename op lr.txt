@@ -12,6 +12,7 @@ int main()
 	SetConsoleOutputCP(1251);
 	int a, b, x;
 	double f, c;
+	cout << "Hello world";
 	cout << "Введите х, a, b, c " << endl;
 	cin >> x >> a >> b >> c;
 	if (c < 0 || x != 0) { 
