@@ -28,3 +28,4 @@ int main()
 		cout << "incorrect data" << endl;
 	}
 	cout << setw(8) << setprecision(3) << "F=" << f << endl;
+//коментар
