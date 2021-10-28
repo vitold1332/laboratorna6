@@ -1,0 +1,30 @@
+#include <iomanip>
+#include "windows.h"
+#include<string>
+
+using namespace std;
+
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	int a, b, x;
+	double f, c;
+	cout << "Введите х, a, b, c " << endl;
+	cin >> x >> a >> b >> c;
+	if (c < 0 || x != 0) { 
+		f = -a * x - c; }
+	else {
+		if (c > 0 && x == 0 && -c != 0) {
+			f = x - a / -c;
+		}
+		if ((c - a) != 0) {
+			f = b * x / c - a;
+		}
+		else {	
+	}
+		cout << "incorrect data" << endl;
+	}
+	cout << setw(8) << setprecision(3) << "F=" << f << endl;
